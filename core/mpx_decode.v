@@ -181,7 +181,11 @@ assign fetch_out_instr_rd_valid_o =
                     inst_mfc0_w ||
                     inst_mfc1_w ||
                     inst_mfc2_w ||
-                    inst_mfc3_w;
+                    inst_mfc3_w ||
+                    inst_cfc0_w ||
+                    inst_cfc1_w ||
+                    inst_cfc2_w ||
+                    inst_cfc3_w;
 
 // NOTE: Not currently used
 assign fetch_out_instr_exec_o =
